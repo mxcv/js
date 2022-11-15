@@ -1,0 +1,33 @@
+#dice-field {
+    display: flex;
+    align-items: center;
+}
+#dice-table {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-rows: 100px;
+}
+.dice {
+    border: 1px solid black;
+    margin: 0 -1px -1px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dice > span {
+    font-size: 48pt;
+    font-family: sans-serif;
+}
+#play {
+    margin-left: 100px;
+    transform: scale(2);
+}
+#players {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 30px;
+}
+#players ol {
+    padding-left: 20px;
+}
